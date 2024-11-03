@@ -1,0 +1,5 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"customer_banking.Account.Account" [color="black", fontcolor="black", label=<{Account|balance<br ALIGN="LEFT"/>interest<br ALIGN="LEFT"/>|set_balance(balance)<br ALIGN="LEFT"/>set_interest(interest)<br ALIGN="LEFT"/>}>, shape="record", style="solid"];
+}

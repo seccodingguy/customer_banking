@@ -1,0 +1,13 @@
+digraph "packages" {
+rankdir=BT
+charset="utf-8"
+"customer_banking" [color="black", label=<customer_banking>, shape="box", style="solid"];
+"customer_banking.Account" [color="black", label=<customer_banking.Account>, shape="box", style="solid"];
+"customer_banking.cd_account" [color="black", label=<customer_banking.cd_account>, shape="box", style="solid"];
+"customer_banking.customer_banking" [color="black", label=<customer_banking.customer_banking>, shape="box", style="solid"];
+"customer_banking.savings_account" [color="black", label=<customer_banking.savings_account>, shape="box", style="solid"];
+"customer_banking.cd_account" -> "customer_banking.Account" [arrowhead="open", arrowtail="none"];
+"customer_banking.customer_banking" -> "customer_banking.cd_account" [arrowhead="open", arrowtail="none"];
+"customer_banking.customer_banking" -> "customer_banking.savings_account" [arrowhead="open", arrowtail="none"];
+"customer_banking.savings_account" -> "customer_banking.Account" [arrowhead="open", arrowtail="none"];
+}
