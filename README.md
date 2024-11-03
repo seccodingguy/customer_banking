@@ -28,5 +28,5 @@ The same prompts and displays will follow for the CD account.
 <img src="images/classes.png">
 Account Class
 
-<img srce="images/packages.png">
+<img src="images/packages.png">
 Banking and Account types modules
